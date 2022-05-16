@@ -100,6 +100,6 @@ function student  ( firstName, lastName, age, university){
     this.university = university;
 
  }
- const stud =  new createStudent("Anya", "Gasparyan", "18", "rau" )
+ const stud =  new student("Anya", "Gasparyan", "18", "rau" )
  console.log(stud.firstName)
- 
+
